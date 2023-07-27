@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>GitHubTest - Command 1</Text>
+    <Description>Some description for GitHubTest</Description>
+    <Assembly>GitHubTest.dll</Assembly>
+    <FullClassName>GitHubTest.Command1</FullClassName>
+    <ClientId>ab16ed1c-ced8-48dd-889a-53502169144d</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>GitHubTest - Command 2</Text>
+    <Description>Some description for GitHubTest</Description>
+    <Assembly>GitHubTest.dll</Assembly>
+    <FullClassName>GitHubTest.Command2</FullClassName>
+    <ClientId>7064bf93-bbd0-4b61-8df3-dc77066c9f90</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>GitHubTest</Name>
+    <Assembly>GitHubTest.dll</Assembly>
+    <FullClassName>GitHubTest.App</FullClassName>
+    <ClientId>afdb6783-cf8d-4410-8808-a4e71b92871a</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
